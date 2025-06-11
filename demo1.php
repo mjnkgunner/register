@@ -14,6 +14,7 @@ if(in_array('bimbim',$sanpham)){
     echo"k";
 }
 // hoanghiep
+// ghngg
 foreach ($sanpham as $key => $value) {
     echo "$key: $value <br>";
 }
