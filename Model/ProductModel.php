@@ -9,7 +9,7 @@ class Product {
             die("Kết nối thất bại: " . $this->conn->connect_error);
         }
     }
-
+    // Comment
     public function getAll() {
         $sql = "SELECT * FROM menu";
         $stmt = $this->conn->query($sql);
