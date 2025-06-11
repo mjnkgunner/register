@@ -17,8 +17,7 @@
     if($_SERVER['REQUEST_METHOD']=='POST'){
            $name = $_POST['name']  ?? '';
            $gia = $_POST['gia'] ?? '0';
-        //    
-        //    gjng
+   
     }
     $sanpham = [
         "name"=>$name,
