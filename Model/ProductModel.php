@@ -10,6 +10,7 @@ class Product {
         }
     }
     // Comment
+    // adc xyz
     public function getAll() {
         $sql = "SELECT * FROM menu";
         $stmt = $this->conn->query($sql);
