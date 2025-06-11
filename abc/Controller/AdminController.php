@@ -6,5 +6,5 @@ class AdminController {
         require_once "views/admin/dashboard.php";
         include_once "Views/footer.php";
     }
-
 }
+//bdhsbchdbshcb
