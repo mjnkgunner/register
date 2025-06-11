@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-image: url(./img/backhead.png);
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid red;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px black;
+    transition: all 0.3s;
+  }
+}
+header {
+  img:hover {
+    transform: scale(0.94);
+    background-color: rgb(100, 164, 255);
+  }
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: red;
+
+  height: 40px;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    width: 200px;
+    height: 100%;
+    background-color: red;
+    cursor: pointer;
+    a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+  }
+}
+nav ul li:hover {
+  background-color: rgb(255, 96, 96);
+}
+.topwek {
+  background-color: rgb(255, 196, 160);
+  height: 400px;
+  position: relative;
+  transition: all 0.6s;
+}
+.anh1 {
+  img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    z-index: 2;
+    transition: all 0.6s;
+  }
+}
+.anh2 {
+  img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    z-index: 1;
+    filter: blur(1px);
+
+    transition: all 0.6s;
+  }
+}
+.anh3 {
+  img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 220px;
+    right: 150px;
+    z-index: 1;
+    filter: blur(1px);
+    transition: all 0.6s;
+  }
+}
+
+.btn_v1 {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 240px;
+  cursor: pointer;
+}
+.btn_v2 {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 300px;
+  cursor: pointer;
+}
+.topwek {
+  h1 {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    font-size: 40px;
+    background: -webkit-linear-gradient(
+      0deg,
+      rgb(0, 0, 255),
+      rgb(79, 255, 164)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid gray;
+  }
+}

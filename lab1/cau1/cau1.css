@@ -1,0 +1,29 @@
+.product {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 350px;
+  float: left;
+}
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+.giagoc {
+  text-decoration: line-through;
+}
+.btn_1 {
+  background-color: red;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
+.btn_2 {
+  background-color: rgb(0, 255, 30);
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
