@@ -7,7 +7,7 @@ switch ($page) {
         $controller = new AdminController();
         $controller->dashboard();
         break;
-
+// ádasd
     case 'product':
         require_once 'Controller/ProductController.php';
         $controller = new ProductController();
